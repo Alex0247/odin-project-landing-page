@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+
+    font-family: 'Roboto';
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.nav-container {
+    background-color: #1F2937;
+    height: 125px;
+
+    display: flex;
+    justify-content: space-around;
+}
