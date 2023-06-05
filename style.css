@@ -19,6 +19,7 @@ a {
     color: #F9FAF8;
 }
 
+
 body {
     /* temp */
 }
@@ -77,7 +78,7 @@ body {
     color: #F9FAF8;
 }
 
-.left-content>button {
+.btn {
     font-size: 18px;
     color: #F9FAF8;
     background-color: #3882F6;
@@ -116,9 +117,9 @@ body {
     align-items: center;
 
     margin-top: 45px;
-    gap: 80px;
-    flex-wrap: wrap;
+    gap: 70px;
 
+    flex-wrap: wrap;
 }
 
 
@@ -136,4 +137,109 @@ body {
 .text {
     margin-top: 10px;
     color: black;
+}
+
+.second-section {
+    padding-bottom: 150px;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    min-width: 100%;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    padding: 75px 0px;
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    min-width: 100%;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+}
+
+.quote > p {
+    font-size: 36px;
+    color: #1F2937;
+
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.author > p {
+    font-weight: bold;
+    color: black;
+    font-size: 22px;
+}
+
+.four-section{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    min-width: 100%;
+
+    padding: 75px 0px
+}
+
+.contact-container{
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    align-self: center;
+    justify-content: center;
+
+    width: 1000px;
+}
+
+.contact-left {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+
+    padding: 35px 0px 35px 100px;
+}
+
+.contact-right {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-self: center;
+    flex-shrink: 0;
+    padding: 35px 50px 35px 0px;
+
+}
+
+
+.contact-header{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.contact-btn {
+    border: 2px solid #fff;
+}
+
+.footer-container {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
 }
